@@ -33,6 +33,60 @@
         });
     });
 
+// collapses nav bar on click
+    $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
+
+
+    // scrolls to what you click
+
+
+    $(".home-link").click(function() {
+
+        event.preventDefault();
+
+
+        $('html,body').animate({
+            scrollTop: $(".hero-area").offset().top},
+            'slow');
+    });
+
+
+
+    $(".about-link").click(function() {
+
+        event.preventDefault();
+
+
+        $('html,body').animate({
+            scrollTop: $(".about-section").offset().top},
+            'slow');
+    });
+
+
+    $(".portfolio-link").click(function() {
+
+        event.preventDefault();
+
+
+        $('html,body').animate({
+            scrollTop: $(".portfolio-section").offset().top},
+            'slow');
+    });
+
+    $(".contact-link").click(function() {
+
+        event.preventDefault();
+
+
+        $('html,body').animate({
+            scrollTop: $(".contact-section").offset().top},
+            'slow');
+    });
+
+
+
 
     /* ########################################### hero parallax ############################################## */
     window.onload = function () {
