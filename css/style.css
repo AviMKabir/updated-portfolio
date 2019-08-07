@@ -118,6 +118,21 @@ h6, .h6 {
   font-size: 15px;
 }
 
+.btn-cv {
+
+
+  border: 2px solid white;
+
+
+}
+
+.btn-primary:hover {
+
+  border: 2px solid rgba(255, 255, 255, 0);
+
+
+}
+
 .btn-primary {
   background: #F1BBBB;
   color: #fff;
@@ -614,7 +629,7 @@ textarea.form-control {
 }
 
 .hover-bg-primary:hover {
-  background: #41228e;
+  background: #F1BCBB;
 }
 
 .hover-bg-primary:hover * {
@@ -623,7 +638,7 @@ textarea.form-control {
 
 .active-bg-primary {
   transition: .3s ease;
-  background: #41228e;
+  background: #F1BCBB;
 }
 
 .active-bg-primary * {
@@ -686,8 +701,8 @@ textarea.form-control {
 /* /portfolio */
 /* testimonial */
 .testimonial-content strong {
-  color: #2bfdff;
-  font-weight: normal;
+  color: #222;
+  font-weight: bold;
 }
 
 .testimonial-bg-shapes .container {
