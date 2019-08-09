@@ -75,6 +75,16 @@
             'slow');
     });
 
+    $(".blog-link").click(function() {
+
+        event.preventDefault();
+
+
+        $('html,body').animate({
+            scrollTop: $(".blog-section").offset().top},
+            'slow');
+    });
+
     $(".contact-link").click(function() {
 
         event.preventDefault();
@@ -84,6 +94,8 @@
             scrollTop: $(".contact-section").offset().top},
             'slow');
     });
+
+    
 
 
 
