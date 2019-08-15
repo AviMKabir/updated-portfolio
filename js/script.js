@@ -64,6 +64,16 @@
             'slow');
     });
 
+    $(".learn-more-btn").click(function() {
+
+        event.preventDefault();
+
+
+        $('html,body').animate({
+            scrollTop: $(".skills-section").offset().top},
+            'slow');
+    });
+
 
     $(".portfolio-link").click(function() {
 
